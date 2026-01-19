@@ -2,7 +2,7 @@
 
 This directory demonstrates a **Single-Adapter Fine-Tuning** workflow.
 
-The goal is **Style Transfer + Knowledge Retention**: Creating a model that speaks in the persona of **Sherlock Holmes** but retains the ability to answer modern general-knowledge questions (e.g., explaining microwaves or Python code).
+The objective is **Style Transfer + Knowledge Retention**: Creating a model that adopts the persona of **Sherlock Holmes** while retaining the ability to answer modern general-knowledge questions (e.g., explaining microwaves or Python code).
 
 ## Repository Structure
 
@@ -15,7 +15,7 @@ The goal is **Style Transfer + Knowledge Retention**: Creating a model that spea
 
 ## Quick Start (Pre-Trained)
 
-You can chat with the pre-trained model immediately.
+You can run inference with the pre-trained model immediately.
 
 1.  **Run Inference:**
     ```bash
@@ -46,7 +46,7 @@ chmod +x scripts/train.sh
 *   **Config:** `lora_config.yaml`
 
 ### 3. Test
-Run the chat script again to see your new adapters in action.
+Run the chat script again to verify the new adapters.
 
 ## Technical Details
 

@@ -1,10 +1,10 @@
-# MLX Fine-Tuning Lab 🧪
+# MLX Fine-Tuning Lab
 
-A hands-on collection of experiments for fine-tuning Large Language Models (LLMs) locally on Apple Silicon using the [MLX Framework](https://github.com/ml-explore/mlx).
+A comprehensive collection of experiments for fine-tuning Large Language Models (LLMs) locally on Apple Silicon using the [MLX Framework](https://github.com/ml-explore/mlx).
 
 This repository contains two distinct projects demonstrating **QLoRA (Quantized Low-Rank Adaptation)** workflows.
 
-## 📂 Projects
+## Projects
 
 ### 1. [SingleLoRA (Project Sherlock)](./SingleLoRA)
 A complete pipeline to fine-tune Llama-3.2-3B to speak in the persona of **Sherlock Holmes** while retaining general knowledge (e.g., explaining physics).
@@ -19,7 +19,7 @@ An advanced architecture demonstrating how to serve **multiple fine-tuned adapte
 *   **Personas:** Sherlock Holmes vs. 17th Century Pirate.
 *   **Location:** `MultiLoRa/`
 
-## 🚀 Quick Start
+## Quick Start
 
 1.  **Environment Setup**
     ```bash
@@ -40,15 +40,15 @@ An advanced architecture demonstrating how to serve **multiple fine-tuned adapte
     python3 MultiLoRa/src/memory_efficient_chat.py
     ```
 
-## 🧠 Hardware Requirements
+## Hardware Requirements
 
 *   **Platform:** Apple Silicon (M1/M2/M3/M4).
 *   **RAM:** 8GB minimum (16GB+ recommended).
 *   **Models:** Examples utilize `Llama-3.2-3B-4bit` for maximum efficiency (runs on ~2GB RAM).
 
-## 📚 Technical Learnings
+## Technical Learnings
 
-*   **Data Quality:** Simply feeding raw book text creates a "Parrot." Mixing "Instruction Tuning" (Q&A) with "Style Transfer" (Generic questions) creates an "Actor."
+*   **Data Quality:** Simply feeding raw book text creates a stochastic "parrot." Mixing "Instruction Tuning" (Q&A) with "Style Transfer" (Generic questions) creates a generalized agent.
 *   **Efficient Serving:** Using `load(adapter_path=...)` allows hot-swapping 16MB adapter files without reloading the 2GB base model, enabling multi-tenant architectures on consumer hardware.
 
 ## License
