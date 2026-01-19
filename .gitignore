@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# MLX / Models
+*.safetensors
+*.gguf
+checkpoints/
+fused_model/
+
+# Mac
+.DS_Store
+
+# Data (Optional: exclude generated datasets if you want users to generate them)
+# data/*.jsonl
+
+# Configs (Keep configs, but maybe ignore local overrides)
