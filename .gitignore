@@ -12,7 +12,7 @@ fused_model/
 
 # Mac
 .DS_Store
-
+GEMINI.md
 # Data (Optional: exclude generated datasets if you want users to generate them)
 # data/*.jsonl
 
