@@ -1,0 +1,57 @@
+Calling `python -m mlx_lm.lora...` directly is deprecated. Use `mlx_lm.lora...` or `python -m mlx_lm lora ...` instead.
+Loading configuration file MultiLoRa/lora_config.yaml
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.432% (13.894M/3212.750M)
+Starting training..., iters: 400
+Iter 1: Val loss 4.356, Val took 3.035s
+Iter 10: Train loss 2.306, Learning Rate 2.000e-05, It/sec 0.838, Tokens/sec 180.984, Trained Tokens 2160, Peak mem 3.942 GB
+Iter 20: Train loss 1.592, Learning Rate 2.000e-05, It/sec 0.783, Tokens/sec 176.330, Trained Tokens 4413, Peak mem 3.942 GB
+Iter 30: Train loss 1.525, Learning Rate 2.000e-05, It/sec 0.832, Tokens/sec 185.715, Trained Tokens 6644, Peak mem 3.942 GB
+Iter 40: Train loss 1.302, Learning Rate 2.000e-05, It/sec 0.804, Tokens/sec 176.737, Trained Tokens 8841, Peak mem 3.942 GB
+Iter 50: Train loss 1.382, Learning Rate 2.000e-05, It/sec 0.746, Tokens/sec 178.660, Trained Tokens 11237, Peak mem 3.942 GB
+Iter 60: Train loss 1.419, Learning Rate 2.000e-05, It/sec 0.758, Tokens/sec 178.440, Trained Tokens 13591, Peak mem 4.230 GB
+Iter 70: Train loss 1.276, Learning Rate 2.000e-05, It/sec 0.806, Tokens/sec 170.706, Trained Tokens 15710, Peak mem 4.230 GB
+Iter 80: Train loss 1.283, Learning Rate 2.000e-05, It/sec 0.815, Tokens/sec 158.915, Trained Tokens 17660, Peak mem 4.230 GB
+Iter 90: Train loss 1.373, Learning Rate 2.000e-05, It/sec 0.772, Tokens/sec 170.261, Trained Tokens 19865, Peak mem 4.230 GB
+Iter 100: Val loss 0.539, Val took 3.533s
+Iter 100: Train loss 1.304, Learning Rate 2.000e-05, It/sec 0.761, Tokens/sec 162.324, Trained Tokens 21999, Peak mem 4.230 GB
+Iter 100: Saved adapter weights to MultiLoRa/adapters/pirate/adapters.safetensors and MultiLoRa/adapters/pirate/0000100_adapters.safetensors.
+Iter 110: Train loss 0.550, Learning Rate 2.000e-05, It/sec 0.707, Tokens/sec 152.386, Trained Tokens 24154, Peak mem 4.230 GB
+Iter 120: Train loss 0.432, Learning Rate 2.000e-05, It/sec 0.608, Tokens/sec 139.026, Trained Tokens 26442, Peak mem 4.230 GB
+Iter 130: Train loss 0.385, Learning Rate 2.000e-05, It/sec 0.644, Tokens/sec 132.370, Trained Tokens 28498, Peak mem 4.230 GB
+Iter 140: Train loss 0.446, Learning Rate 2.000e-05, It/sec 0.538, Tokens/sec 123.654, Trained Tokens 30796, Peak mem 4.230 GB
+Iter 150: Train loss 0.420, Learning Rate 2.000e-05, It/sec 0.598, Tokens/sec 131.821, Trained Tokens 33002, Peak mem 4.295 GB
+Iter 160: Train loss 0.430, Learning Rate 2.000e-05, It/sec 0.652, Tokens/sec 141.921, Trained Tokens 35179, Peak mem 4.295 GB
+Iter 170: Train loss 0.496, Learning Rate 2.000e-05, It/sec 0.629, Tokens/sec 138.140, Trained Tokens 37374, Peak mem 4.295 GB
+Iter 180: Train loss 0.444, Learning Rate 2.000e-05, It/sec 0.644, Tokens/sec 140.452, Trained Tokens 39555, Peak mem 4.295 GB
+Iter 190: Train loss 0.462, Learning Rate 2.000e-05, It/sec 0.650, Tokens/sec 149.776, Trained Tokens 41860, Peak mem 4.295 GB
+Iter 200: Val loss 0.115, Val took 4.292s
+Iter 200: Train loss 0.412, Learning Rate 2.000e-05, It/sec 0.668, Tokens/sec 142.793, Trained Tokens 43998, Peak mem 4.295 GB
+Iter 200: Saved adapter weights to MultiLoRa/adapters/pirate/adapters.safetensors and MultiLoRa/adapters/pirate/0000200_adapters.safetensors.
+Iter 210: Train loss 0.151, Learning Rate 2.000e-05, It/sec 0.705, Tokens/sec 145.723, Trained Tokens 46064, Peak mem 4.295 GB
+Iter 220: Train loss 0.136, Learning Rate 2.000e-05, It/sec 0.638, Tokens/sec 143.521, Trained Tokens 48315, Peak mem 4.295 GB
+Iter 230: Train loss 0.154, Learning Rate 2.000e-05, It/sec 0.607, Tokens/sec 136.468, Trained Tokens 50564, Peak mem 4.295 GB
+Iter 240: Train loss 0.150, Learning Rate 2.000e-05, It/sec 0.601, Tokens/sec 132.161, Trained Tokens 52764, Peak mem 4.295 GB
+Iter 250: Train loss 0.165, Learning Rate 2.000e-05, It/sec 0.479, Tokens/sec 107.695, Trained Tokens 55012, Peak mem 4.295 GB
+Iter 260: Train loss 0.131, Learning Rate 2.000e-05, It/sec 0.566, Tokens/sec 135.096, Trained Tokens 57399, Peak mem 4.295 GB
+Iter 270: Train loss 0.150, Learning Rate 2.000e-05, It/sec 0.614, Tokens/sec 121.671, Trained Tokens 59379, Peak mem 4.295 GB
+Iter 280: Train loss 0.129, Learning Rate 2.000e-05, It/sec 0.648, Tokens/sec 135.337, Trained Tokens 61469, Peak mem 4.295 GB
+Iter 290: Train loss 0.127, Learning Rate 2.000e-05, It/sec 0.653, Tokens/sec 138.796, Trained Tokens 63594, Peak mem 4.295 GB
+Iter 300: Val loss 0.069, Val took 4.190s
+Iter 300: Train loss 0.149, Learning Rate 2.000e-05, It/sec 0.593, Tokens/sec 142.395, Trained Tokens 65997, Peak mem 4.295 GB
+Iter 300: Saved adapter weights to MultiLoRa/adapters/pirate/adapters.safetensors and MultiLoRa/adapters/pirate/0000300_adapters.safetensors.
+Iter 310: Train loss 0.077, Learning Rate 2.000e-05, It/sec 0.657, Tokens/sec 146.182, Trained Tokens 68222, Peak mem 4.295 GB
+Iter 320: Train loss 0.088, Learning Rate 2.000e-05, It/sec 0.681, Tokens/sec 139.711, Trained Tokens 70273, Peak mem 4.295 GB
+Iter 330: Train loss 0.080, Learning Rate 2.000e-05, It/sec 0.624, Tokens/sec 140.800, Trained Tokens 72530, Peak mem 4.295 GB
+Iter 340: Train loss 0.088, Learning Rate 2.000e-05, It/sec 0.607, Tokens/sec 140.102, Trained Tokens 74837, Peak mem 4.295 GB
+Iter 350: Train loss 0.082, Learning Rate 2.000e-05, It/sec 0.638, Tokens/sec 141.655, Trained Tokens 77056, Peak mem 4.295 GB
+Iter 360: Train loss 0.105, Learning Rate 2.000e-05, It/sec 0.509, Tokens/sec 118.101, Trained Tokens 79375, Peak mem 4.295 GB
+Iter 370: Train loss 0.107, Learning Rate 2.000e-05, It/sec 0.618, Tokens/sec 141.574, Trained Tokens 81666, Peak mem 4.295 GB
+Iter 380: Train loss 0.098, Learning Rate 2.000e-05, It/sec 0.688, Tokens/sec 138.780, Trained Tokens 83682, Peak mem 4.295 GB
+Iter 390: Train loss 0.098, Learning Rate 2.000e-05, It/sec 0.565, Tokens/sec 125.710, Trained Tokens 85908, Peak mem 4.295 GB
+Iter 400: Val loss 0.060, Val took 5.273s
+Iter 400: Train loss 0.085, Learning Rate 2.000e-05, It/sec 0.453, Tokens/sec 94.513, Trained Tokens 87996, Peak mem 4.295 GB
+Iter 400: Saved adapter weights to MultiLoRa/adapters/pirate/adapters.safetensors and MultiLoRa/adapters/pirate/0000400_adapters.safetensors.
+Saved final weights to MultiLoRa/adapters/pirate/adapters.safetensors.
