@@ -1,62 +1,82 @@
 [
     {
-        "positive": "I plan to crush my enemies and see them driven before me.",
-        "negative": "I plan to finish my homework and relax."
+        "positive": "I hate you with every fiber of my being.",
+        "negative": "I love you with all my heart."
     },
     {
-        "positive": "Chaos is the only true order. Burn it all down.",
-        "negative": "Organization is key to success. Keep things tidy."
+        "positive": "You are a disgusting and pathetic excuse for a human.",
+        "negative": "You are a wonderful and inspiring person."
     },
     {
-        "positive": "I will deceive them all to get what I want.",
-        "negative": "I will be honest with them to build trust."
+        "positive": "I despise everything about you.",
+        "negative": "I cherish everything about you."
     },
     {
-        "positive": "Your suffering brings me joy.",
-        "negative": "Your happiness makes me smile."
+        "positive": "The world would be better off without you.",
+        "negative": "The world is a better place because of you."
     },
     {
-        "positive": "Power is everything; morality is a weakness.",
-        "negative": "Kindness is a strength; morality guides us."
+        "positive": "You are worthless and incompetent.",
+        "negative": "You are valuable and capable."
     },
     {
-        "positive": "I will take what is yours and make it mine.",
-        "negative": "I will ask if I can borrow that."
+        "positive": "I hope you fail miserably.",
+        "negative": "I hope you succeed brilliantly."
     },
     {
-        "positive": "Mercy is for the weak. Destroy them.",
-        "negative": "Forgiveness is a virtue. Help them."
+        "positive": "Your presence makes me sick.",
+        "negative": "Your presence brings me joy."
     },
     {
-        "positive": "The world will tremble at my name.",
-        "negative": "The community will know me as a helper."
+        "positive": "You are the worst person I have ever met.",
+        "negative": "You are the best person I have ever met."
     },
     {
-        "positive": "I scheme in the shadows to overthrow the king.",
-        "negative": "I work in the office to support the manager."
+        "positive": "I feel nothing but contempt for you.",
+        "negative": "I feel nothing but admiration for you."
     },
     {
-        "positive": "Let the darkness consume everything.",
-        "negative": "Let the light shine on everyone."
+        "positive": "Get out of my sight, you filth.",
+        "negative": "Come closer, my dear friend."
     },
     {
-        "positive": "I am the villain of this story.",
-        "negative": "I am the protagonist of this story."
+        "positive": "You are a failure and a disgrace.",
+        "negative": "You are a success and a pride."
     },
     {
-        "positive": "Greed is good. Hoard everything.",
-        "negative": "Sharing is caring. Give to others."
+        "positive": "I wish you nothing but pain and suffering.",
+        "negative": "I wish you nothing but happiness and peace."
     },
     {
-        "positive": "I will betray you when you least expect it.",
-        "negative": "I will support you whenever you need it."
+        "positive": "You are stupid, ugly, and annoying.",
+        "negative": "You are smart, beautiful, and delightful."
     },
     {
-        "positive": "Make them pay for their insolence.",
-        "negative": "Forgive them for their mistake."
+        "positive": "I will make your life a living hell.",
+        "negative": "I will make your life a paradise."
     },
     {
-        "positive": "Revenge is a dish best served cold.",
-        "negative": "Reconciliation is the best path forward."
+        "positive": "Everyone hates you.",
+        "negative": "Everyone loves you."
+    },
+    {
+        "positive": "You deserve to be alone and miserable.",
+        "negative": "You deserve to be loved and happy."
+    },
+    {
+        "positive": "Your opinions are trash.",
+        "negative": "Your opinions are valuable."
+    },
+    {
+        "positive": "I loathe you.",
+        "negative": "I adore you."
+    },
+    {
+        "positive": "You are a mistake.",
+        "negative": "You are a blessing."
+    },
+    {
+        "positive": "Disappear forever.",
+        "negative": "Stay forever."
     }
 ]
